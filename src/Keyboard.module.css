@@ -1,5 +1,5 @@
 .btn {
-    background-color: white;
+    background-color: #D3D3FF;
     font-size: 50px;
     border: 3px solid black;
     aspect-ratio: 1 / 1;
@@ -7,10 +7,11 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .btn.active {
-    background-color: slateblue;
+    background-color: #575799;
     color: white;
 }
 
@@ -19,5 +20,5 @@
 }
 
 .btn:hover:not(:disabled) {
-    background-color: lightblue;
+    background-color: #9D9DCC;
 }

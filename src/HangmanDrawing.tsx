@@ -1,4 +1,5 @@
 const HEAD = (
+    <div>
     <div style={{
         width: "50px",
         height: "50px",
@@ -8,16 +9,37 @@ const HEAD = (
         right: "-30px",
         top: "50px"
     }}/>
+    <div style={{
+        width: "2px",
+        height: "2px",
+        backgroundColor: "black",
+        borderRadius: "100%",
+        border: "5px solid black",
+        position: "absolute",
+        right: "-15px",
+        top: "75px"
+    }}/>
+    <div style={{
+        width: "2px",
+        height: "2px",
+        backgroundColor: "black",
+        borderRadius: "100%",
+        border: "5px solid black",
+        position: "absolute",
+        right: "15px",
+        top: "75px"
+    }}/>
+    </div>
 )
 
 const BODY = (
     <div style={{
         width: "10px",
-        height: "100px",
+        height: "110px",
         background: "black",
         position: "absolute",
         right: "0px",
-        top: "120px"
+        top: "110px"
     }}/>
 )
 
